@@ -1,0 +1,52 @@
+.marginLeftRight{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 134px;
+    color:RGB(44, 62, 80);
+}
+
+.starColor{
+    color: RGB(44, 62, 80);
+}
+.part{
+    width: 80px;
+    height: 4px;
+    background-color: RGB(44, 62, 80);
+}
+
+.borderRadius{
+    border-radius: 10px;
+}
+
+.item{
+    cursor: pointer;
+}
+
+.item:hover .itemLayer{
+    opacity: 1;
+}
+
+.itemLayer{
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    background-color: RGBA(26, 188, 156,0.9);
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.35s ease-in;
+}
+
+.plusFontSize{
+    font-size: 96px;
+    font-weight: 900;
+}
+
+
+.zIndex{
+    z-index: 999999999;
+}

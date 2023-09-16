@@ -1,0 +1,40 @@
+.upperPartColor{
+    background-color: RGB(44, 62, 80);
+}
+
+.upperPartPadd{
+    height: 32.5vh;
+    padding-top: 20px;
+}
+
+.leftPaddRightPadd{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.bootomPart{
+    background-color: RGB(26, 37, 47);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+}
+
+.iconBorder{
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 7px;
+}
+
+.iconSize{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card{
+    background-color: transparent;
+}
